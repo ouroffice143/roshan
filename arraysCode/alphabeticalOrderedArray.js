@@ -15,3 +15,5 @@ function alphabeticalOrder(ar){
 }
 arr = alphabeticalOrder(arr)
 console.log(arr)
+console.log("hi")
+
