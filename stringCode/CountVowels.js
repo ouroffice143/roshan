@@ -29,8 +29,9 @@ function countVowels(st){
             default :   count++;
         }    
     }
-    return a+e+i+o+u
+    return [a+e+i+o+u,count]
 }
 var str = "aaacccvvviiiooonnnvvvvuuuuuu";
-
-console.log(countVowels(str))
+var count = countVowels(str)
+console.log("vowels :"+count[0])
+console.log("consonants :"+count[1])
